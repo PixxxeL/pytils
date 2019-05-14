@@ -229,5 +229,5 @@ def ru_strftime(format=u"%d.%m.%Y", date=None, inflected=False,
         # and back to unicode
         u_res = s_res.decode("utf-8")
     else:
-        u_res = date.strftime(format)
+        u_res = date.strftime(format.encode('unicode-escape').decode()).encode().decode('unicode-escape')
     return u_res

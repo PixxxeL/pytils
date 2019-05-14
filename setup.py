@@ -12,10 +12,10 @@ if use_setuptools:
 else:
     from distutils.core import setup
 
-version = "0.3.1"
+version = "0.3.2"
 
 setup_data = {
-      'name': 'pytils',
+      'name': 'pytils_safe',
       'version': version,
       'author': 'Yury Yurevich',
       'author_email': 'yyurevich@jellycrystal.com',
@@ -37,6 +37,7 @@ dates in russian without locales, transliteration, etc)""",
           'Programming Language :: Python :: 2.7',
           'Programming Language :: Python :: 3',
           'Programming Language :: Python :: 3.6',
+          'Programming Language :: Python :: 3.7',
           'Natural Language :: Russian',
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',
