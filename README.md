@@ -1,7 +1,7 @@
 Pytils
 ------
 
-*Fix `ru_strftime` for Python 3*
+**Fix `ru_strftime` for Python 3**
 
 Pytils is a Russian-specific string utils
 (transliteration, numeral is words,
